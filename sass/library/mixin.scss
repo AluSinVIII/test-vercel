@@ -1,0 +1,33 @@
+@mixin text{
+    text-align: justify;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+        
+}
+
+@mixin bluebtn{
+    background: linear-gradient(90deg, #1A129F, #5248E6);
+    color: #FFF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin box {
+    align-self: center;
+    text-align: center;
+    height: 350px;
+    width: 300px;
+    background-color: #FFF;
+    box-shadow: 5px 5px 5px 5px rgb(126,118,249,10%);
+    border-radius: 30px;
+    display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                text-align: center;
+                align-items: center;
+}
+

@@ -1,0 +1,66 @@
+@media (max-width: 740px ){
+
+
+    #socialmedia{
+        
+        #smleft{
+            width: 100%;
+            
+        }
+        #smright{
+            width: 0%;
+            visibility: hidden;
+        }
+
+    }
+    #we{
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        #weleft{
+            width: 0%;
+            visibility: hidden;
+        }
+        #weright{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+    }
+
+    #offer{
+        margin-bottom: 200vh;
+        background-repeat: repeat;
+        
+        #offerbody{
+        
+            #offertop{
+                flex-direction: column;
+                margin-bottom: 20px;
+                .box{
+                    margin-bottom: 20px;
+                }
+            }
+            #offerbot{
+                flex-direction: column;
+                .box{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    #pricing{
+        margin-bottom: 100vh;
+        #pricingbody{
+            flex-direction: column;
+            .box{
+                margin-bottom: 20px;
+            }
+
+        }
+    }
+
+
+}
